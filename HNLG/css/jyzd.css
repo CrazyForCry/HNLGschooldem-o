@@ -1,0 +1,150 @@
+/*头部*/
+.top{
+	width: 100%;
+	height:130px;
+	background: linear-gradient(#E1E1E1, #fff);
+}
+.top .top-logo{
+	width: 70%;
+	margin: 0 auto;
+	height: 130px;
+	background: url(../img/jyzdImg/header_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*主体*/
+.container{
+	width: 70%;
+	margin: 0 auto;
+	height: 1000px;
+	/*background-color: pink;*/
+}
+/*导航条*/
+.nav{
+	width: 100%;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #9F4954;
+	color: white;
+	line-height: 40px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 15px;
+}
+
+.nav ul li{
+	float: left;
+	padding: 0px 5px;
+	margin-right: 10px;
+}
+.nav ul li:hover a{
+	text-decoration: underline;
+}
+.nav ul li a{
+	color: #fff;
+}
+/*第一层*/
+.floor-one{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.floor-one .one-left{
+	width: 30%;
+}
+.floor-one .one-left .left-top{
+	width: 100%;
+	height: 240px;
+	border: 1px solid #cccccc;
+}
+.floor-one .one-left .left-top img{
+	width: 100%;
+	height: 100%;
+}
+.floor-one .one-left .left-bottom{
+	width: 100%;
+	height: 185px;
+	margin-top: 10px;
+	border: 1px solid #cccccc;
+}
+.floor-one .one-right{
+	width: 69%;
+}
+/*公共部分*/
+.common {
+	width: 100%;
+	height: 220px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+.common .com-top{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #EBEBEB;
+	font-size: 13px;
+}
+.common .com-top p img{
+	margin-right: 5px;
+}
+.common .com-top>img{
+	width: 50px;
+	height: 15px;
+	margin-top: 7px;
+}
+.common .com-bottom {
+	padding-left: 10px;
+}
+.common .com-bottom ul li{
+	height: 23px;
+	line-height: 23px;
+}
+.common .com-bottom ul li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+/*第二层*/
+.floor-two{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.floor-two .two-left{
+	width: 49%;
+}
+.floor-two .two-right{
+	width: 49%;
+}
+/*第三层*/
+.floor-three{
+	width: 100%;
+	height: 100px;
+}
+.floor-three ul li{
+	width: 113px;
+	height: 40px;
+	float: left;
+	margin-right: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 5px;
+}
+.floor-three ul li:hover{
+	cursor: pointer;
+}
+.floor-three ul li img{
+	width: 85%;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+/*底部*/
+.footer p{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
